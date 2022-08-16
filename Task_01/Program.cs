@@ -25,11 +25,11 @@ if ((value_01 >= 10000) & (value_01 <= 99999))
     if (Digit_in_whole_number(value_01, 1) == Digit_in_whole_number(value_01, 5) &
         Digit_in_whole_number(value_01, 2) == Digit_in_whole_number(value_01, 4))
     {
-        System.Console.WriteLine("Полиндром");
+        System.Console.WriteLine("Палиндром");
     }
     else
     {
-        System.Console.WriteLine("Не полиндром");
+        System.Console.WriteLine("Не палиндром");
     }
 }
 else
